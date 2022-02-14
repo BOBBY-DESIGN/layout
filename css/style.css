@@ -1,5 +1,29 @@
 :root{
     --main-radius:0.5rem;
+    --color-red90:#e72727;
+    --color-red50:#e09494;
+    --color-red30:#edcdcd;
+    --color-blue1:#e6f7ff;
+    --color-blue2:#bae7ff;
+    --color-blue3:#91d5ff;
+    --color-blue4:#69c0ff;
+    --color-blue5:#40a9ff;
+    --color-blue6:#1890ff;
+    --color-blue7:#096dd9;
+    --color-blue8:#0050b3;
+    --color-blue9:#003a8c;
+    --color-blue10:#002766;
+}
+
+:root{
+    --background-default:var(--color-red90);
+    --background-dark:var(--color-red30);
+    --color-brand:var(--color-blue6);
+    --color-selected:var(--color-blue1);
+    --color-hover:var(--color-blue5);
+    --color-normal:var(--color-blue10);
+    --color-click:var(--color-blue7);
+    --color-link:var(--color-blue8);
 }
 
 .container{
@@ -32,12 +56,12 @@ nav{
     border-radius: var(--main-radius);
 }
 .sidebar{
-    background: #21D168;
+    background:var(--color-brand);
     grid-area: sidebar;
     border-radius: var(--main-radius);
 }
 .card{
-    background: #0E5D88;
+    background: var(--color-normal);
     border-radius: var(--main-radius);
 }
 #content1{
