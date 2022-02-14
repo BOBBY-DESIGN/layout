@@ -46,7 +46,7 @@
     padding-top: 1rem;
 }
 nav{
-    background: #D8940D;
+    background: #1E78FF;
     grid-area: nav;
     border-radius: var(--main-radius);
 }
